@@ -29,7 +29,7 @@ class FinalPayment(FirstPayment):
         self.final_amount = final_amount
 
     def final_payment(self):
-        """This method is used to print the customer initial payment, first payment and final payment"""
+        """This method is used to print the customer initial payment, first payment and final payment."""
         print("Initial Payment is", self.initial_amount, "First Payment is", self.first_amount, "Final Payment is", self.final_amount)
 
 

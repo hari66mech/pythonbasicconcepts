@@ -22,7 +22,7 @@ class Salary(Employee):
         self.salary = salary
 
     def employee_salary(self):
-        """This method used to print the employee initial salary and current salary according to the employee ID"""
+        """This method used to print the employee initial salary and current salary according to the employee ID."""
         super().employee_salary()
         print(self.id, "number employee salary is", self.salary)
 

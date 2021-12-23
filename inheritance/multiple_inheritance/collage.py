@@ -13,7 +13,7 @@ class Bachelor_of_Technology:
 
 
 class Collage_Student(Engineering, Bachelor_of_Technology):
-    """Child Class. This class inherit the Engineering, Bachelor_of_Technology classes"""
+    """Child Class. This class inherit the Engineering, Bachelor_of_Technology classes."""
     def subject(self):
         print("Basic Subject")
 

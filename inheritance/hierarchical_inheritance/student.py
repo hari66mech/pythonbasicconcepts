@@ -37,7 +37,6 @@ class B_Sc(Student):
 engineering = Engineering("raj", "001")
 engineering.student()
 engineering.engineer()
-
 bsc = B_Sc("ram", "bsc001", 20)
 bsc.student()
 bsc.b_sc()
